@@ -1,0 +1,45 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(https://img.ibxk.com.br/2019/05/17/a-17202525498312.jpg)
+  ;
+  background-size: cover;
+}
+
+#nave{
+  position: absolute;
+  height: 115px;
+  top:270px;
+  left: 100px;
+}
+
+#portal{
+  position: absolute;
+  height: 200px;
+  top:201px;
+  left: 0;
+}
+
+.globe{
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  border-radius: 50%;
+  background-image: url(http://www.gisandbeers.com/wp-content/uploads/2018/09/Descargar-Blue-Marble-de-la-NASA.jpg);
+  background-size: cover;
+  box-shadow: -25px -25px 25px black inset, 10px 10px 30px white inset, 0px 0px 20px #3a86ff;
+  animation: rotate 35s linear infinite;
+}
+
+@keyframes rotate {
+  to{background-position: 100%;}
+}
